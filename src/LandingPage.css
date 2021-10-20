@@ -1,6 +1,6 @@
 .backdrop {
 
-    background-image: url('./Assets/truckHeader.png');
+    background-image: url('./Assets/trucking2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@ a {
 
 
 .lastSec {
-    background-image: url('./Assets/trucking2.png');
+    background-image: url('./Assets/truckHeader.png');
     background-position: center;
     background-size: cover;
 }
@@ -89,7 +89,7 @@ a {
  }
 
  .formBack{
-     background-image: url('./Assets/truckHeader.png');
+     background-image: url('./Assets/trucking2.png');
      background-repeat: no-repeat;
      background-position: top;
      background-size: contain;
