@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Logo from './Assets/qhlogo.png';
+import Logo from './Assets/logo.png';
 
 
 class Footer extends Component {
@@ -16,7 +16,7 @@ class Footer extends Component {
                 <a className="inline-block mb-6 text-gray-900 text-lg font-semibold" href="/" data-config-id="brand">
                   <img className="h-7" src={Logo} alt="" width="auto" />
                 </a>
-                <p className="hidden lg:block text-sm text-gray-500" data-config-id="copy">All rights reserved © Quotehound 2021</p>
+                <p className="hidden lg:block text-sm text-gray-500" data-config-id="copy">All rights reserved © USA Trucking Quotes 2021</p>
               </div>
 
             

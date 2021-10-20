@@ -7,7 +7,7 @@ import { ToastContainer, toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.min.css';
 
 
-import Logo from './Assets/qhlogo.png';
+import Logo from './Assets/logo.png';
 
 
 import Money from './Assets/Money.svg';
@@ -87,7 +87,7 @@ class LandingPage extends Component {
   <div className="relative z-10 container px-4 mx-auto">
     <div className="max-w-4xl pt-20">
       
-      <h2 className="mt-8 mb-8 text-5xl lg:text-7xl text-white font-bold" data-config-id="header">Get a free Commercial Insurance Quote</h2>
+      <h2 className="mt-8 mb-8 text-5xl lg:text-7xl text-white font-bold" data-config-id="header">Get a free Trucking Insurance Quote</h2>
       <form onSubmit={this.nextStep} >
 
 <div className="flex justify items-center formSection py-10">
@@ -209,7 +209,7 @@ class LandingPage extends Component {
         <a className="inline-block mb-6 text-gray-900 text-lg font-semibold" href="/" data-config-id="brand">
           <img className="h-7" src={Logo} alt="" width="auto" />
         </a>
-        <p className="hidden lg:block text-sm text-gray-500" data-config-id="copy">All rights reserved © Quotehound 2021</p>
+        <p className="hidden lg:block text-sm text-gray-500" data-config-id="copy">All rights reserved © USA Trucking Quotes 2021</p>
       </div>
       <div className="w-full lg:w-4/6 px-4">
         <div className="flex flex-wrap items-center justify-end">

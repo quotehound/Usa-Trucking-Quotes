@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 
-import Logo from './Assets/qhlogo.png';
+import Logo from './Assets/logo.png';
 
 class NavBar extends Component {
     render() {
@@ -12,7 +12,7 @@ class NavBar extends Component {
       <a className="text-xl text-white font-semibold" href="#" data-config-id="brand">
         <img className="h-7" src={Logo} alt="" width="auto" />
       </a>
-      <a className="inline-block px-6 py-2 text-sm text-white font-bold leading-loose bg-blue-400 hover:bg-blue-600 rounded transition duration-200" href="tel:8887013066" data-config-id="04_button">(888) 701-3066</a>
+      <a className="inline-block px-6 py-2 text-sm text-white font-bold leading-loose bg-blue-400 hover:bg-blue-600 rounded transition duration-200" href="tel:8885671448" data-config-id="04_button">(888) 567-1448</a>
 
     </div>
   </nav>
