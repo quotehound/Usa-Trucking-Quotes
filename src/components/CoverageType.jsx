@@ -79,11 +79,12 @@ class CoverageType extends Component {
         const urlParams = new URLSearchParams(urlSearch);
     
         const lp = urlParams.get('lp_request_id');
+        const gclid = urlParams.get('gclid');
         const zip = urlParams.get('zip_code');
         const businessName = urlParams.get('legal_business_name');
        
         
-        this.props.history.push('/business-type' + '?lp_request_id=' + lp + '&zip_code=' + zip + '&legal_business_name=' + businessName + '&coverage_type=' + 'coverage');
+        this.props.history.push('/business-type' + '?lp_request_id=' + lp + '&gclid=' + gclid + '&zip_code=' + zip + '&legal_business_name=' + businessName + '&coverage_type=' + 'coverage');
     }
 
     render() {

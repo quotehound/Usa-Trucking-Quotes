@@ -44,10 +44,12 @@ class BusinessName extends Component {
     const urlParams = new URLSearchParams(urlSearch);
 
     const lp = urlParams.get('lp_request_id');
+    const gclid = urlParams.get('gclid');
+
     const zip = urlParams.get('zip_code');
 
 
-    this.props.history.push('/coverage-select' + '?lp_request_id=' + lp + '&zip_code=' + zip + '&legal_business_name=' + businessName);
+    this.props.history.push('/coverage-select' + '?lp_request_id=' + lp + '&gclid=' + gclid + '&zip_code=' + zip + '&legal_business_name=' + businessName);
     }
       
   }

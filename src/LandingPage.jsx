@@ -49,13 +49,16 @@ class LandingPage extends Component {
           const urlParams = new URLSearchParams(urlSearch);
 
           const lp = urlParams.get('lp_request_id');
+          const gclid = urlParams.get('gclid');
+
+          
 
          
           this.props.setZipCode(zip);
     
           console.log("updated props with value: ", zip);
     
-          this.props.history.push('/business-name' + '?lp_request_id=' + lp + '&zip_code=' +  zip);
+          this.props.history.push('/business-name' + '?lp_request_id=' + lp + '&gclid=' + gclid + '&zip_code=' +  zip);
         }
           
       }

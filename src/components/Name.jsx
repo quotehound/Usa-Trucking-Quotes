@@ -36,6 +36,8 @@ class Name extends Component {
         const businessName = urlParams.get('legal_business_name');
         const coverageTypes = urlParams.get('coverage_type');
         const structure = urlParams.get('business_structure');
+        const gclid = urlParams.get('gclid');
+
         const profession = urlParams.get('business_profession');
         const year = urlParams.get('year_business_founded');
         const revenue = urlParams.get('annual_revenue_over_next_12_months');
@@ -43,7 +45,7 @@ class Name extends Component {
         const address = urlParams.get('address');
 
     
-        this.props.history.push('/email-phone' + '?lp_request_id=' + lp + '&zip_code=' + zip + '&legal_business_name=' + businessName + '&coverage_type=' + coverageTypes + '&business_structure=' + structure + '&business_profession=' + profession + '&year_business_founded=' + year + '&annual_revenue_over_next_12_months=' + revenue + '&number_of_employees=' + employee + '&address=' + address + '&first_name=' + firstName + '&last_name=' + lastName);
+        this.props.history.push('/email-phone' + '?lp_request_id=' + lp + '&gclid=' + gclid + '&zip_code=' + zip + '&legal_business_name=' + businessName + '&coverage_type=' + coverageTypes + '&business_structure=' + structure + '&business_profession=' + profession + '&year_business_founded=' + year + '&annual_revenue_over_next_12_months=' + revenue + '&number_of_employees=' + employee + '&address=' + address + '&first_name=' + firstName + '&last_name=' + lastName);
 
 
 

@@ -22,13 +22,14 @@ class BusinessType extends Component {
         const urlParams = new URLSearchParams(urlSearch);
     
         const lp = urlParams.get('lp_request_id');
+        const gclid = urlParams.get('gclid');
         const zip = urlParams.get('zip_code');
         const businessName = urlParams.get('legal_business_name');
         const coverageTypes = urlParams.get('coverage_type');
 
        
         
-        this.props.history.push('/profession' + '?lp_request_id=' + lp + '&zip_code=' + zip + '&legal_business_name=' + businessName + '&coverage_type=coverage' + '&business_structure=' + type);
+        this.props.history.push('/profession' +'?lp_request_id=' + lp + '&gclid=' + gclid + '&zip_code=' + zip + '&legal_business_name=' + businessName + '&coverage_type=coverage' + '&business_structure=' + type);
 
     }
 
