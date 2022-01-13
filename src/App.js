@@ -54,6 +54,8 @@ class App extends Component {
       business_website: '',
       address: '',
       zip_code: '',
+      city: '',
+      state: '',
       business_structure: '',
       ein: 'Yes',
       business_profession: '',
@@ -96,6 +98,8 @@ class App extends Component {
                       jornaya_lead_id: document.getElementById('leadid_token').value,
                       trusted_form_cert_id: document.getElementById('xxTrustedFormToken_0').value,
                       zip_code: v,
+                      city: localStorage.getItem('city'),
+                      state: localStorage.getItem('state')
                     },
                   });
                 }}
