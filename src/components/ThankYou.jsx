@@ -44,13 +44,12 @@ class ThankYou extends Component {
           
           </div>
 
-
-          <MA />
-
-          </div>. 
-
-
           </div>
+
+
+            </div>
+            <MA />
+
           <ConnectStreams moduleId="1675" phoneNumber={tele}  />
 
           </div>
